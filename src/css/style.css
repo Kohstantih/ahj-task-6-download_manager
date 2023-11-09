@@ -1,0 +1,60 @@
+html, body {
+    height: 100%;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.file_list {
+    width: 500px;
+
+    border: 1px solid black;
+    border-radius: 10px;
+
+    padding: 10px;
+
+    font-weight: bold;
+}
+
+.file_list_title {
+    margin-bottom: 20px;
+}
+
+.file_box {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.item-name {
+    width: 50%;
+
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.item-weight {
+    width: 20%;
+
+    padding: 5px;
+    box-sizing: border-box;
+
+    text-align: center;
+}
+
+.item-download {
+    width: 30%;
+
+    padding: 5px;
+    box-sizing: border-box;
+
+    text-align: center;
+}
+
+.counter_text {
+    margin-top: 10px;
+}
